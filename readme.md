@@ -14,6 +14,28 @@ Mac
     - $ git config --global user.name "abcd" // git user name
     - $ git config --global user.email abcd@abcd // git user email
 
+Linux
+--
+- 휠 속도 개선
+
+```sh
+$ sudo apt install imwheel /설치
+$ imwheel //실행
+$ gedit ~/.imwheelrc //환경설정 파일 변경
+
+//내용추가. 맨 끝 숫자가 높을수록 많은 스크롤링
+
+".*"
+None,      Up,   Button4, 3
+None,      Down, Button5, 3
+
+$ imwheel -k //재시작
+
+
+
+```
+
+
 Tool 사용관련
 =====
 VS Code 단축키
